@@ -8,7 +8,7 @@ import jakarta.ws.rs.core.MediaType
 @Path("/hello")
 class ExampleResource {
 
-    @GET
-    @Produces(MediaType.TEXT_PLAIN)
-    fun hello() = "Hello from Quarkus REST"
+  @GET
+  @Produces(MediaType.TEXT_PLAIN)
+  fun hello() = "Hello from Quarkus REST"
 }
